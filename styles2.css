@@ -65,6 +65,9 @@ body {
 
 .container h1{
   text-align: center;
+  color: black;
+  font-size: 48px;
+
 }
 
 .section {
