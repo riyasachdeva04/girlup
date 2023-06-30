@@ -9,8 +9,9 @@ body {
 header {
   position: sticky;
   top: 0;
+  height: 12vh;
   background-color: #d8917d;
-  padding: 10px;
+  padding: 0px;
   display: flex;
   align-items: center;
   z-index: 9999;
