@@ -23,6 +23,11 @@ header h1 {
   margin-right: auto;
 }
 
+header img {
+  width: 100px; 
+  height: 100px; 
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;
