@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+    background-color: #d8917d;
+    color: #d8917d;
+  }
+  
+  header {
+    position: sticky;
+    top: 0;
+    height: 20vh;
+    background-color: #d8917d;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  header h1 {
+    color: #fff;
+    font-size: 24px;
+    margin-right: auto;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ffa07a;
+  }
+  
+  .section.scrapbook {
+    background-color: #000;
+  }
+  
+  .team-member .scrapbook-entry {
+    background-color: #333;
+  }
+  
+  .team-member .scrapbook-content h3,
+  .team-member .scrapbook-content p {
+    color: #d8917d;
+  }
+  
+  .container {
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .container h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .container p {
+    font-size: 18px;
+  }
+  
+  footer {
+    background-color: #d8917d;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+  }
+  
