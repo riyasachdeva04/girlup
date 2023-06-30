@@ -138,9 +138,17 @@ footer {
 
   background-color: #d8917d;
   padding: 10px;
-  text-align:start;
+  text-align:center;
   color: #fff;
 }
+
+.social-media a {
+  margin: 0 5px;
+  font-size: 25px;
+
+}
+
+
 
 .container p {
   font-size: 14px;

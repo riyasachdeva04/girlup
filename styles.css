@@ -201,3 +201,15 @@ button[type="submit"]:hover {
   width: 75%;
   margin: 0 auto;
 }
+
+.social-media a {
+  margin: 0 5px;
+  font-size: 25px;
+
+}
+
+
+.social-media{
+  font-size: 18px;
+  color: #555;
+}
