@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 10;
+  padding: 10;
+  background-color: #d8917d; 
+}
+
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #d8917d;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  z-index: 9999;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 24px;
+  margin-right: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffa07a;
+}
+
+
+.parallax {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.parallax .content {
+  text-align: center;
+}
+
+.parallax h1 {
+  color: #fff;
+  font-size: 48px;
+  margin: 0;
+}
+
+.parallax p {
+  color: #fff;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-text {
+  flex-basis: 60%;
+}
+
+.about-image {
+  flex-basis: 35%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.container {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #d8917d;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+#home {
+  background-image: url("women-empowerment.jpg");
+  background-size: cover;
+  background-position: center;
+}
+

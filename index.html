@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GirlUp TIET</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <img src="girlup.jpg" alt="Logo">
+    <h1>GirlUp TIET</h1>
+    
+    <nav>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Events</a></li>
+        <li><a href="">Core Team</a></li>
+        <li><a href="">Contact Us</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="parallax">
+      <div class="content">
+        <h1>GirlUp TIET</h1>
+        <p>Breaking Barriers, Building Bridges.</p>
+        <a href="" class="btn">Join Us</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur scelerisque consectetur quam, eu fermentum erat lacinia eget. Integer dapibus metus auctor ligula tincidunt, id rhoncus ipsum ultricies. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque eget molestie felis.</p>
+          </div>
+          <div class="about-image">
+            <img src="girlup2.jpg" alt="About Image">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>For any inquiries or feedback, please feel free to reach out to us.</p>
+        <form action="process_form.php" method="post">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 GirlUp TIET. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
