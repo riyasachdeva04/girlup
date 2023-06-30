@@ -65,7 +65,7 @@ body {
 
 .container h1{
   text-align: center;
-  color: black;
+  color: #fff;
   font-size: 48px;
 
 }
@@ -95,7 +95,7 @@ body {
 .scrapbook-entry {
   position: relative;
   text-align: center;
-  background-color: #000;
+  background-color: #ded6d6c4;
   border-radius: 8px;
   padding: 20px;
   transition: transform 0.3s ease;
